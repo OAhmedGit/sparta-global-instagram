@@ -3,64 +3,66 @@
 <html>
 
   <head>
-    <link rel="stylesheet" href="css/style.css">
-    <title>Instagram</title>
+    <link rel="stylesheet" href="css/style.css"> <!-- Linking CSS to HTML-->
+    <title>Instagram</title> <!-- Title of homepage-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"> <!-- Allows the page layout to work on mobile devices-->
   </head>
 
   <body>
     <main>
-
-      <section class="left_section">
-
+      <section class="left_section"> <!-- Section which holds the phone images on the left-->
       </section>
 
-      <section class="right_section">
+      <section class="right_section"> <!-- Section which holds the form and other things on the right-->
 
-        <img src="images/logo.png" alt="instagram logo" class="instagramlogo">
+        <img src="images/logo.png" alt="instagram logo" class="instagramlogo"> <!--Load phone image from relative path-->
 
-        <p>Sign up to see photos and videos from your friends.</p>
+        <p>Sign up to see photos and videos from your friends.</p> <!--Text below Instagram logo-->
 
-        <button type="button" name="login"><img class="facebooklogo" src="images/fblogo.jpg" alt="facebook logo">Log in with Facebook</button>
+        <button type="button" name="login"><img class="facebooklogo" src="images/fblogo.jpg" alt="facebook logo">Log in with Facebook</button> <!-- Login using facebook button-->
 
-        <fieldset class="title">
+        <fieldset class="dividing-line"> <!--Create a dividing line on the page with OR in the center-->
           <legend>OR</legend>
         </fieldset>
 
-        <form>
-          <input type="text" name="email" placeholder="Mobile Number or Email">
+        <form> <!--Form -->
+          <input type="text" name="email" placeholder="Mobile Number or Email"> <!--Input fields when registering-->
           <input type="text" name="fullname" placeholder="Full Name">
           <input type="text" name="username" placeholder="Username">
           <input type="text" name="password" placeholder="Password">
         </form>
 
-        <button type="button" name="signup">Sign up</button>
+        <button type="button" name="signup">Sign up</button> <!--Sign Up Button-->
 
-        <p class="terms">By signing up, you agree to our <a href="">Terms & Privacy Policy.</a></p>
+        <p class="terms">By signing up, you agree to our</p> <!-- Terms and policy text-->
+        <a href="">Terms & Privacy Policy.</a>
 
         <p>Have an account?<a href="">Log in</a></p>
 
         <p>Get the app.</p>
 
-        <div class="app_links">
+        <div class="app_links"> <!--Placeholder images which should link to the android and iOS apps-->
           <img src="images/badge-android.png" alt="android link">
           <img src="images/badge-iphone.png" alt="iphone link">
         </div>
 
       </section>
 
-      <footer>
-        <nav>
-          <a href="">ABOUT US</a>
-          <a href="">SUPPORT</a>
-          <a href="">BLOG</a>
-          <a href="">PRESS</a>
-          <a href="">API</a>
-          <a href="">JOBS</a>
-          <a href="">PRIVACY</a>
-          <a href="">TERMS</a>
-          <a href="">DIRECTORY</a>
-          <a href="">LANGUAGE</a>
-        </nav>
+      <footer> <!--Footer-->
+        <div class="navbar">
+          <nav> <!--Nav bar at the bottom of the page-->
+            <a href="">ABOUT US</a> <!--Links to various pages-->
+            <a href="">SUPPORT</a>
+            <a href="">BLOG</a>
+            <a href="">PRESS</a>
+            <a href="">API</a>
+            <a href="">JOBS</a>
+            <a href="">PRIVACY</a>
+            <a href="">TERMS</a>
+            <a href="">DIRECTORY</a>
+            <a href="">LANGUAGE</a>
+          </nav>
+        </div>
       </footer>
 
     </main>
